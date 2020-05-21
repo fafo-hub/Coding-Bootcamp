@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.bg-img {
+    display: inline-block;
+    position: relative;
+    left: 650px;
+    top: 60px;
+}
+.bg-img img {
+    width: 85%;
+}
+.container {
+    display: grid;
+    grid-template-columns: 650px auto;
+    position: relative;
+    top: -442px;
+    width: fit-content;
+    left: 85px;
+}
+
+.text {
+    position: relative;
+    top: 137px;
+    left: 80px;
+    display: block;
+    height: max-content;
+    font-size: 35px;
+}
+.picture {
+    width: fit-content;
+}
+.picture img {
+    width: 85%;
+}
+.about {
+    font-size: 35px;
+    font-weight: 800;
+    position: relative;
+    left: 80px;
+    top: -96px;
+    width: fit-content;
+}
+.abouts {
+    font-size: 35px;
+    font-weight: 800;
+    position: relative;
+    left: 80px;
+    top: -96px;
+    width: fit-content;
+}
+.job {
+    font-size: 30px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.4)
+}
+.jobs {
+    font-size: 30px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.4)
+}
+.curve {
+    position: relative;
+    top: -310px;
+}
+.sign {
+    background-color: hsl(0, 0%, 98%);
+    padding: 15px;
+    position: absolute;
+    top: 546px;
+    left: 760px;
+    border-radius: 30px;
+    width: 157px;
+}
+img.next {
+    width: 19%;
+    position: relative;
+    left: 71px;
+    top: 3px;
+}
+img.prev {
+    width: 20px;
+}
+img.quotes {
+    position: absolute;
+    top: 192px;
+    left: 273px;
+}
+@media screen and (max-width: 900px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    img.curve {
+        position: absolute;
+        top: 1316px;
+    }    
+    .about {
+        position: relative;
+        top: 855px;
+        font-size: 31px;
+        text-align: center;
+        width: auto;
+        font-size: 50px
+    }
+    .job {
+        position: absolute;
+        left: 66px;
+        top: 73px;
+        font-size: 45px;
+    }
+    .bg-img {
+        position: relative;
+        left: 151px;
+        top: 12px;
+        width: 138%;
+    }
+    .text {
+        position: absolute;
+        top: 609px;
+        font-size: 58px;
+        text-align: center;
+        width: 572px;
+        left: -5px;
+        height: unset;
+    }
+    img.quotes {
+        position: absolute;
+        top: 475px;
+        width: 212px;
+    }
+    .picture img {
+        position: relative;
+        top: 66px;
+        left: 122px;
+        width: 97%
+    }
+    .sign {
+        position: absolute;
+        left: 262px;
+        top: 372px;
+    }
+    .abouts {
+        position: relative;
+        top: 855px;
+        left: 140px;
+        font-size: 31px;
+        font-size: 43px;
+    }
+    .jobs {
+        position: absolute;
+        left: 30px;
+        top: 73px;
+        font-size: 36px;
+        width: 446px;
+        margin-top: -20px; 
+        margin-left: -97px;
+    }
+}
